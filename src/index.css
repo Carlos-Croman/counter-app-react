@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  min-height: 100dvh;
+  background-color: #242424;
+  color: rgb(255, 255, 255, 75%);
+}
+
+#root {
+  min-width: 28rem;
+}
