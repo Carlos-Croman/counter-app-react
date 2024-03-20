@@ -1,0 +1,39 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<App /> - unit test > must match snapshot 1`] = `
+<div>
+  <header>
+    <h1
+      class="app-title"
+    >
+      Counter App
+    </h1>
+  </header>
+  <div>
+    <p
+      class="counter"
+    >
+      10
+    </p>
+  </div>
+  <div
+    class="buttons-container"
+  >
+    <button
+      class="button"
+    >
+      +1
+    </button>
+    <button
+      class="button"
+    >
+      ⟳
+    </button>
+    <button
+      class="button"
+    >
+      -1
+    </button>
+  </div>
+</div>
+`;
